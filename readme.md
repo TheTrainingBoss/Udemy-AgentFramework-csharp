@@ -31,7 +31,7 @@ The course examples explore:
 
 This repository is intended for C# and .NET developers who want practical experience building applications with AI agents. Familiarity with C#, asynchronous programming, NuGet packages, and basic API integration will help you get the most from the examples.
 
-The accompanying [Udemy lessons](udemy.com/course/mastering-microsoft-agent-framework-in-c/) provide the explanations, demonstrations, and context behind the code.
+The accompanying [Udemy lessons](https://udemy.com/course/mastering-microsoft-agent-framework-in-c/) provide the explanations, demonstrations, and context behind the code.
 
 ## Prerequisites
 
