@@ -55,7 +55,7 @@ cd Udemy-AgentFramework-csharp
 
 ### 2. Open the solution
 
-Open `AgentFrameworkVideos.sln` in your development environment, then select the example associated with your current lesson.
+Open `Udemy-AgentFramework-csharp.sln` at the repository root in your development environment, then select the example associated with your current lesson. All example projects are located under `src`.
 
 ### 3. Configure the selected example
 
@@ -67,9 +67,10 @@ Keep API keys and other credentials out of version control. Use User Secrets or 
 
 ### 4. Restore and run
 
-From the selected project's directory:
+From the repository root, enter the selected project's directory under `src`, then restore and run it. For example:
 
 ```bash
+cd src/01-OpenAIDemo
 dotnet restore
 dotnet run
 ```
@@ -78,7 +79,7 @@ Alternatively, set the project as the startup project in your IDE and run it the
 
 ## Repository Organization
 
-The solution groups the course examples into numbered folders for easy navigation. Each example focuses on a specific concept, with supporting code and assets included where needed.
+The root-level `Udemy-AgentFramework-csharp.sln` references the course examples in numbered folders under `src`. Each example focuses on a specific concept, with supporting code and assets included where needed. Repository images remain in `media`.
 
 Follow the course sequence for a guided learning path, or return to individual examples when reviewing a topic.
 

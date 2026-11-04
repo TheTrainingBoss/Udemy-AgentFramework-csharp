@@ -3,91 +3,91 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-OpenAIDemo", "01-OpenAIDemo\01-OpenAIDemo.csproj", "{38713ED0-5070-EF1E-0560-4D7DA54F791D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-OpenAIDemo", "src\01-OpenAIDemo\01-OpenAIDemo.csproj", "{38713ED0-5070-EF1E-0560-4D7DA54F791D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-ChatConversationDemo", "11-ChatConversationDemo\11-ChatConversationDemo.csproj", "{C72C7F71-D584-4E6E-ACFC-FEAD86E79E2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-ChatConversationDemo", "src\11-ChatConversationDemo\11-ChatConversationDemo.csproj", "{C72C7F71-D584-4E6E-ACFC-FEAD86E79E2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-SimpleAgentDemo", "12-SimpleAgentDemo\12-SimpleAgentDemo.csproj", "{255017D5-CF68-4BF3-A7A8-15011324BCD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-SimpleAgentDemo", "src\12-SimpleAgentDemo\12-SimpleAgentDemo.csproj", "{255017D5-CF68-4BF3-A7A8-15011324BCD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23-ReasoningEffortDemo", "23-ReasoningEffortDemo\23-ReasoningEffortDemo.csproj", "{A96D3594-C7AB-4319-BBAB-20A7D6442C9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23-ReasoningEffortDemo", "src\23-ReasoningEffortDemo\23-ReasoningEffortDemo.csproj", "{A96D3594-C7AB-4319-BBAB-20A7D6442C9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-AzureOpenAIDemo", "02-AzureOpenAIDemo\02-AzureOpenAIDemo.csproj", "{0F9A6211-4B74-402C-B253-6A37E4E2277A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-AzureOpenAIDemo", "src\02-AzureOpenAIDemo\02-AzureOpenAIDemo.csproj", "{0F9A6211-4B74-402C-B253-6A37E4E2277A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-AnthropicDemo", "03-AnthropicDemo\03-AnthropicDemo.csproj", "{8C7769C1-9EFF-4ED6-A7EE-DBD319EB9CBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-AnthropicDemo", "src\03-AnthropicDemo\03-AnthropicDemo.csproj", "{8C7769C1-9EFF-4ED6-A7EE-DBD319EB9CBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-GoogleDemo", "04-GoogleDemo\04-GoogleDemo.csproj", "{A4AB65DE-2468-4F2B-B8F0-073F08733EC6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-GoogleDemo", "src\04-GoogleDemo\04-GoogleDemo.csproj", "{A4AB65DE-2468-4F2B-B8F0-073F08733EC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-GrokDemo", "05-GrokDemo\05-GrokDemo.csproj", "{D7691F45-23E0-42B3-872A-CEA5FE4B31AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-GrokDemo", "src\05-GrokDemo\05-GrokDemo.csproj", "{D7691F45-23E0-42B3-872A-CEA5FE4B31AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-MistralDemo", "06-MistralDemo\06-MistralDemo.csproj", "{532CD037-FE89-40C5-856B-FFFFCF976283}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-MistralDemo", "src\06-MistralDemo\06-MistralDemo.csproj", "{532CD037-FE89-40C5-856B-FFFFCF976283}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-FoundryDemo", "07-FoundryDemo\07-FoundryDemo.csproj", "{3DB1C0A4-5805-488A-8F1A-A8B1DC0379D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-FoundryDemo", "src\07-FoundryDemo\07-FoundryDemo.csproj", "{3DB1C0A4-5805-488A-8F1A-A8B1DC0379D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-OllamaDemo", "08-OllamaDemo\08-OllamaDemo.csproj", "{C0E537C3-1C6E-4A02-AF3D-989DAE3EF055}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-OllamaDemo", "src\08-OllamaDemo\08-OllamaDemo.csproj", "{C0E537C3-1C6E-4A02-AF3D-989DAE3EF055}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-FoundryLocalDemo", "09-FoundryLocalDemo\09-FoundryLocalDemo.csproj", "{F2FE61F9-A496-4289-A729-DB3535179841}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-FoundryLocalDemo", "src\09-FoundryLocalDemo\09-FoundryLocalDemo.csproj", "{F2FE61F9-A496-4289-A729-DB3535179841}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-StreamingResponseDemo", "10-StreamingResponseDemo\10-StreamingResponseDemo.csproj", "{FB247DE9-AB93-426F-A0DE-35A4141ED30A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-StreamingResponseDemo", "src\10-StreamingResponseDemo\10-StreamingResponseDemo.csproj", "{FB247DE9-AB93-426F-A0DE-35A4141ED30A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-FunctionCallDemo", "13-FunctionCallDemo\13-FunctionCallDemo.csproj", "{4F846AF9-1704-4B9E-993F-4230D2C52027}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-FunctionCallDemo", "src\13-FunctionCallDemo\13-FunctionCallDemo.csproj", "{4F846AF9-1704-4B9E-993F-4230D2C52027}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-CodeInterpreterDemo", "14-CodeInterpreterDemo\14-CodeInterpreterDemo.csproj", "{8BD0D561-2FAB-4C80-9984-1D8F75CC0CE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-CodeInterpreterDemo", "src\14-CodeInterpreterDemo\14-CodeInterpreterDemo.csproj", "{8BD0D561-2FAB-4C80-9984-1D8F75CC0CE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-WebSearchDemo", "15-WebSearchDemo\15-WebSearchDemo.csproj", "{8912349E-007A-407C-8880-6640260DED22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-WebSearchDemo", "src\15-WebSearchDemo\15-WebSearchDemo.csproj", "{8912349E-007A-407C-8880-6640260DED22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-MCPDemo", "16-MCPDemo\16-MCPDemo.csproj", "{A854C4A0-60BE-4788-A3C3-F9B5D68D7753}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-MCPDemo", "src\16-MCPDemo\16-MCPDemo.csproj", "{A854C4A0-60BE-4788-A3C3-F9B5D68D7753}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17-AgentAsToolDemo", "17-AgentAsToolDemo\17-AgentAsToolDemo.csproj", "{4B608AD5-807C-47F4-BDD9-6B903AAB9516}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17-AgentAsToolDemo", "src\17-AgentAsToolDemo\17-AgentAsToolDemo.csproj", "{4B608AD5-807C-47F4-BDD9-6B903AAB9516}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18-StructuredOutputDemo", "18-StructuredOutputDemo\18-StructuredOutputDemo.csproj", "{29AE8475-0B78-4D29-BB19-D4D62E31E3FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18-StructuredOutputDemo", "src\18-StructuredOutputDemo\18-StructuredOutputDemo.csproj", "{29AE8475-0B78-4D29-BB19-D4D62E31E3FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19-EmbeddingDemo", "19-EmbeddingDemo\19-EmbeddingDemo.csproj", "{568BD29F-322F-4F46-81A4-614EEB1239E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19-EmbeddingDemo", "src\19-EmbeddingDemo\19-EmbeddingDemo.csproj", "{568BD29F-322F-4F46-81A4-614EEB1239E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20-VectorStoreDemo", "20-VectorStoreDemo\20-VectorStoreDemo.csproj", "{502C5512-3B16-45AC-B7A2-F451A16D8A0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20-VectorStoreDemo", "src\20-VectorStoreDemo\20-VectorStoreDemo.csproj", "{502C5512-3B16-45AC-B7A2-F451A16D8A0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21-SemanticSearchDemo", "21-SemanticSearchDemo\21-SemanticSearchDemo.csproj", "{6B3719F5-CAE7-452D-B156-999881664CF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21-SemanticSearchDemo", "src\21-SemanticSearchDemo\21-SemanticSearchDemo.csproj", "{6B3719F5-CAE7-452D-B156-999881664CF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22-AgenticRAGDemo", "22-AgenticRAGDemo\22-AgenticRAGDemo.csproj", "{E3EA33A1-2C48-4877-9AF6-396275D3C399}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22-AgenticRAGDemo", "src\22-AgenticRAGDemo\22-AgenticRAGDemo.csproj", "{E3EA33A1-2C48-4877-9AF6-396275D3C399}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24-ModelImageDemo", "24-ModelImageDemo\24-ModelImageDemo.csproj", "{28DA9F00-0AE2-4CD5-8AC5-A1B9E356C8C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24-ModelImageDemo", "src\24-ModelImageDemo\24-ModelImageDemo.csproj", "{28DA9F00-0AE2-4CD5-8AC5-A1B9E356C8C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25-ModelPDFDemo", "25-ModelPDFDemo\25-ModelPDFDemo.csproj", "{D80920C7-4566-46E2-B141-5A295F56FB42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25-ModelPDFDemo", "src\25-ModelPDFDemo\25-ModelPDFDemo.csproj", "{D80920C7-4566-46E2-B141-5A295F56FB42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26-AIContextProviderDemo", "26-AIContextProviderDemo\26-AIContextProviderDemo.csproj", "{F293865A-EA23-4831-A39E-EF79BC4C5098}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26-AIContextProviderDemo", "src\26-AIContextProviderDemo\26-AIContextProviderDemo.csproj", "{F293865A-EA23-4831-A39E-EF79BC4C5098}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27-CosmosDBChatHistoryDemo", "27-CosmosDBChatHistoryDemo\27-CosmosDBChatHistoryDemo.csproj", "{927D5C24-E4FE-497E-BB51-51C8F4A4F22B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27-CosmosDBChatHistoryDemo", "src\27-CosmosDBChatHistoryDemo\27-CosmosDBChatHistoryDemo.csproj", "{927D5C24-E4FE-497E-BB51-51C8F4A4F22B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28-SemanticCacheDemo", "28-SemanticCacheDemo\28-SemanticCacheDemo.csproj", "{6D946607-C024-4A8A-ABC1-20E7FEE4888A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28-SemanticCacheDemo", "src\28-SemanticCacheDemo\28-SemanticCacheDemo.csproj", "{6D946607-C024-4A8A-ABC1-20E7FEE4888A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29-AGUIServerDemo", "29-AGUIServerDemo\29-AGUIServerDemo.csproj", "{6DBE1787-967D-4DB5-A5C8-6C17A3E713A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29-AGUIServerDemo", "src\29-AGUIServerDemo\29-AGUIServerDemo.csproj", "{6DBE1787-967D-4DB5-A5C8-6C17A3E713A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30-AGUIClientDemo", "30-AGUIClientDemo\30-AGUIClientDemo.csproj", "{1AC5E82C-C1C7-4A0C-A0FB-8FD5C88BC7BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30-AGUIClientDemo", "src\30-AGUIClientDemo\30-AGUIClientDemo.csproj", "{1AC5E82C-C1C7-4A0C-A0FB-8FD5C88BC7BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31-DevUIDemo", "31-DevUIDemo\31-DevUIDemo.csproj", "{D6D52B44-5616-4204-9EDD-802B78EE2739}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31-DevUIDemo", "src\31-DevUIDemo\31-DevUIDemo.csproj", "{D6D52B44-5616-4204-9EDD-802B78EE2739}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32-OpenTelemetryDemo", "32-OpenTelemetryDemo\32-OpenTelemetryDemo.csproj", "{DF5A6045-9CD6-421E-8106-76A7C4276C60}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32-OpenTelemetryDemo", "src\32-OpenTelemetryDemo\32-OpenTelemetryDemo.csproj", "{DF5A6045-9CD6-421E-8106-76A7C4276C60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33-WorkflowWithoutAI", "33-WorkflowWithoutAI\33-WorkflowWithoutAI.csproj", "{91AA6C51-E17D-4428-8A74-F787DCD1AD77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33-WorkflowWithoutAI", "src\33-WorkflowWithoutAI\33-WorkflowWithoutAI.csproj", "{91AA6C51-E17D-4428-8A74-F787DCD1AD77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34-SequentialWorkflowDemo", "34-SequentialWorkflowDemo\34-SequentialWorkflowDemo.csproj", "{09CCE181-D107-4910-8DF4-5BCE23E1AA35}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34-SequentialWorkflowDemo", "src\34-SequentialWorkflowDemo\34-SequentialWorkflowDemo.csproj", "{09CCE181-D107-4910-8DF4-5BCE23E1AA35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35-ConcurrentWorkflowDemo", "35-ConcurrentWorkflowDemo\35-ConcurrentWorkflowDemo.csproj", "{EA20A600-DD58-491A-90C7-FCD9AC178CC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35-ConcurrentWorkflowDemo", "src\35-ConcurrentWorkflowDemo\35-ConcurrentWorkflowDemo.csproj", "{EA20A600-DD58-491A-90C7-FCD9AC178CC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36-HandoffWorkflowDemo", "36-HandoffWorkflowDemo\36-HandoffWorkflowDemo.csproj", "{DEA6D704-E4D2-4D64-8423-3EECBCA6305F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36-HandoffWorkflowDemo", "src\36-HandoffWorkflowDemo\36-HandoffWorkflowDemo.csproj", "{DEA6D704-E4D2-4D64-8423-3EECBCA6305F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37-GroupChatWorkflowDemo", "37-GroupChatWorkflowDemo\37-GroupChatWorkflowDemo.csproj", "{060E7CD5-DF14-4CB4-A15B-2A65A8A46706}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37-GroupChatWorkflowDemo", "src\37-GroupChatWorkflowDemo\37-GroupChatWorkflowDemo.csproj", "{060E7CD5-DF14-4CB4-A15B-2A65A8A46706}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "38-HumanintheLoopWorkflowDemo", "38-HumanintheLoopWorkflowDemo\38-HumanintheLoopWorkflowDemo.csproj", "{580855EB-86FD-4821-A530-37E883D82DB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "38-HumanintheLoopWorkflowDemo", "src\38-HumanintheLoopWorkflowDemo\38-HumanintheLoopWorkflowDemo.csproj", "{580855EB-86FD-4821-A530-37E883D82DB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39-AgentSkillsDemo", "39-AgentSkillsDemo\39-AgentSkillsDemo.csproj", "{40C9676F-AAF3-4E88-8761-0DF6133BE061}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39-AgentSkillsDemo", "src\39-AgentSkillsDemo\39-AgentSkillsDemo.csproj", "{40C9676F-AAF3-4E88-8761-0DF6133BE061}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "40-GitHubCopilotDemo", "40-GitHubCopilotDemo\40-GitHubCopilotDemo.csproj", "{BC316F85-05AC-41B4-AFD3-AF001E567EA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "40-GitHubCopilotDemo", "src\40-GitHubCopilotDemo\40-GitHubCopilotDemo.csproj", "{BC316F85-05AC-41B4-AFD3-AF001E567EA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24b-ImageGenerationDemo", "24b-ImageGenerationDemo\24b-ImageGenerationDemo.csproj", "{DBCDF11F-027E-4D38-9BA2-9493D02E2A6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24b-ImageGenerationDemo", "src\24b-ImageGenerationDemo\24b-ImageGenerationDemo.csproj", "{DBCDF11F-027E-4D38-9BA2-9493D02E2A6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24c-ImageGeneration-AzureOpenAI-Demo", "24c-ImageGeneration-AzureOpenAI-Demo\24c-ImageGeneration-AzureOpenAI-Demo.csproj", "{F040569F-DEFE-4349-9CE9-04150BBA0533}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24c-ImageGeneration-AzureOpenAI-Demo", "src\24c-ImageGeneration-AzureOpenAI-Demo\24c-ImageGeneration-AzureOpenAI-Demo.csproj", "{F040569F-DEFE-4349-9CE9-04150BBA0533}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "41-ModelRouterDemo", "41-ModelRouterDemo\41-ModelRouterDemo.csproj", "{D8F246A4-55BC-44B5-B67B-5533B3772A6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "41-ModelRouterDemo", "src\41-ModelRouterDemo\41-ModelRouterDemo.csproj", "{D8F246A4-55BC-44B5-B67B-5533B3772A6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
