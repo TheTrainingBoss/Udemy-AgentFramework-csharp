@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "lHrkXRyUMWI=",
+  "success": true,
+  "projectFilePath": "D:\\Udemy-AgentFramework-csharp\\04-GoogleDemo\\04-GoogleDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lino\\.nuget\\packages\\google.protobuf\\3.30.2\\google.protobuf.3.30.2.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\google_generativeai\\3.6.8\\google_generativeai.3.6.8.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\google_generativeai.microsoft\\3.6.8\\google_generativeai.microsoft.3.6.8.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\microsoft.agents.ai\\1.27.0\\microsoft.agents.ai.1.27.0.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\microsoft.agents.ai.abstractions\\1.27.0\\microsoft.agents.ai.abstractions.1.27.0.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\microsoft.extensions.ai\\10.11.0\\microsoft.extensions.ai.10.11.0.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\10.11.0\\microsoft.extensions.ai.abstractions.10.11.0.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\microsoft.extensions.ai.evaluation\\10.10.0\\microsoft.extensions.ai.evaluation.10.10.0.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.13\\microsoft.extensions.caching.abstractions.10.0.13.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\microsoft.extensions.compliance.abstractions\\10.10.0\\microsoft.extensions.compliance.abstractions.10.10.0.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.3\\microsoft.extensions.dependencyinjection.9.0.3.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.13\\microsoft.extensions.dependencyinjection.abstractions.10.0.13.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\10.0.12\\microsoft.extensions.filesystemglobbing.10.0.12.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\microsoft.extensions.logging\\9.0.3\\microsoft.extensions.logging.9.0.3.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.13\\microsoft.extensions.logging.abstractions.10.0.13.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\microsoft.extensions.objectpool\\10.0.12\\microsoft.extensions.objectpool.10.0.12.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\microsoft.extensions.options\\9.0.3\\microsoft.extensions.options.9.0.3.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.13\\microsoft.extensions.primitives.10.0.13.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\microsoft.extensions.vectordata.abstractions\\10.10.0\\microsoft.extensions.vectordata.abstractions.10.10.0.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\microsoft.ml.tokenizers\\2.0.0\\microsoft.ml.tokenizers.2.0.0.nupkg.sha512",
+    "C:\\Users\\Lino\\.nuget\\packages\\system.numerics.tensors\\10.0.13\\system.numerics.tensors.10.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
