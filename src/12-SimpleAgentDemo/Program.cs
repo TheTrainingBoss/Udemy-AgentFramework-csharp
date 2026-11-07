@@ -1,16 +1,26 @@
 ﻿using Microsoft.Agents.AI;
 using System.ClientModel;
 using Microsoft.Extensions.Configuration;   
-using Azure.AI.OpenAI;
 using OpenAI.Chat;
 using System.Diagnostics;
 using Microsoft.Extensions.AI;
+using OpenAI;
 
 IConfigurationRoot config = new ConfigurationBuilder().AddUserSecrets<Program>().Build();
 string endpoint = config["endpoint"]!;
 string apikey = config["apikey"]!;
 
-AzureOpenAIClient client = new AzureOpenAIClient(new Uri(endpoint), new ApiKeyCredential(apikey));
+OpenAIClient client = new OpenAIClient(new ApiKeyCredential(apikey), new OpenAIClientOptions
+{
+    Endpoint = new Uri(endpoint + "/openai/v1/")
+});
+
+// If you don't want to use the APIKey, you can use Bearer token authentication instead
+//BearerTokenPolicy policy = new(new DefaultAzureCredential(), "https://ai.azure.com/.default");
+// OpenAIClient client = new OpenAIClient(policy, new OpenAIClientOptions
+// {
+//     Endpoint = new Uri(endpoint + "/openai/v1/")
+// });
 
 ChatClientAgent agent = client.GetChatClient("gpt-5").AsAIAgent(
     new ChatClientAgentOptions

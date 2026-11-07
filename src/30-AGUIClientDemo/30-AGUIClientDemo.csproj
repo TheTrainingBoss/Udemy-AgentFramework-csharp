@@ -5,8 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-   <ItemGroup>
-		<PackageReference Include="Microsoft.Agents.AI" Version="1.27.0" />
-		<PackageReference Include="Microsoft.Agents.AI.AGUI" Version="1.13.0-preview.260703.1" />
+  <ItemGroup>
+		<PackageReference Include="AGUI.Client" />
+		<PackageReference Include="Microsoft.Agents.AI" />
 	</ItemGroup>
 </Project>

@@ -1,0 +1,67 @@
+<Project>
+  <!--
+    NuGet Central Package Management: every project under this folder gets its package versions from here.
+    Projects reference packages WITHOUT a Version attribute, e.g. <PackageReference Include="Microsoft.Agents.AI" />
+    To upgrade, change the version below (usually just the properties) and rebuild.
+  -->
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <!-- Forces transitive dependencies listed below (e.g. Microsoft.Agents.AI pulled in by a preview package) to the central version. -->
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+
+    <!-- Microsoft Agent Framework: the ONE stable version used everywhere -->
+    <AgentFrameworkVersion>1.28.0</AgentFrameworkVersion>
+
+    <MicrosoftExtensionsAIVersion>10.11.0</MicrosoftExtensionsAIVersion>
+    <MicrosoftExtensionsVersion>10.0.14</MicrosoftExtensionsVersion>
+    <OpenTelemetryVersion>1.20.1</OpenTelemetryVersion>
+  </PropertyGroup>
+
+  <ItemGroup Label="Microsoft Agent Framework (stable)">
+    <PackageVersion Include="Microsoft.Agents.AI" Version="$(AgentFrameworkVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.Abstractions" Version="$(AgentFrameworkVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.Anthropic" Version="$(AgentFrameworkVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.OpenAI" Version="$(AgentFrameworkVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.Workflows" Version="$(AgentFrameworkVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.GitHub.Copilot" Version="$(AgentFrameworkVersion)" />
+  </ItemGroup>
+
+  <!--
+    Add-on packages that have NO stable release on NuGet yet, so they cannot use $(AgentFrameworkVersion).
+    Their Agent Framework dependencies are still pinned to the stable version above.
+    Move a package to the stable group once Microsoft ships a stable release of it.
+  -->
+  <ItemGroup Label="Agent Framework add-ons (preview only)">
+    <PackageVersion Include="Microsoft.Agents.AI.CosmosNoSql" Version="1.28.0-preview.261106.1" />
+    <PackageVersion Include="Microsoft.Agents.AI.DevUI" Version="1.28.0-preview.261106.1" />
+    <PackageVersion Include="Microsoft.Agents.AI.Foundry" Version="1.28.0-preview.261106.1" />
+    <PackageVersion Include="Microsoft.Agents.AI.Hosting.AGUI.AspNetCore" Version="1.28.0-preview.261106.1" />
+  </ItemGroup>
+
+  <ItemGroup Label="Microsoft.Extensions">
+    <PackageVersion Include="Microsoft.Extensions.AI" Version="$(MicrosoftExtensionsAIVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration" Version="$(MicrosoftExtensionsVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.UserSecrets" Version="$(MicrosoftExtensionsVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="$(MicrosoftExtensionsVersion)" />
+  </ItemGroup>
+
+  <ItemGroup Label="Azure">
+    <PackageVersion Include="Azure.AI.Projects" Version="3.0.0-beta.6" />
+    <PackageVersion Include="Azure.Identity" Version="1.21.0" />
+    <PackageVersion Include="Azure.Monitor.OpenTelemetry.Exporter" Version="1.10.0" />
+    <PackageVersion Include="Azure.Search.Documents" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup Label="Model providers and other">
+    <PackageVersion Include="AGUI.Client" Version="1.0.1" />
+    <PackageVersion Include="CommunityToolkit.VectorData.AzureAISearch" Version="1.0.1" />
+    <PackageVersion Include="Google_GenerativeAI.Microsoft" Version="3.6.8" />
+    <PackageVersion Include="Microsoft.AI.Foundry.Local" Version="2.3.1" />
+    <PackageVersion Include="Mistral.SDK" Version="2.3.1" />
+    <PackageVersion Include="ModelContextProtocol" Version="2.4.0" />
+    <PackageVersion Include="OllamaSharp" Version="5.5.2" />
+    <PackageVersion Include="OpenAI" Version="2.15.0" />
+    <PackageVersion Include="OpenTelemetry" Version="$(OpenTelemetryVersion)" />
+    <PackageVersion Include="OpenTelemetry.Exporter.Console" Version="$(OpenTelemetryVersion)" />
+  </ItemGroup>
+</Project>

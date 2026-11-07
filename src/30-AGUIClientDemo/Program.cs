@@ -1,5 +1,5 @@
 ﻿using Microsoft.Agents.AI;
-using Microsoft.Agents.AI.AGUI;
+using AGUI.Client;
 using Microsoft.Extensions.AI;
 using System.Text;
 
@@ -7,9 +7,12 @@ Console.Clear();
 HttpClient httpClient = new HttpClient();
 const string serverUrl = "http://localhost:5000";
 ConsoleColor textColor = ConsoleColor.White;
-AGUIChatClient chatClient = new AGUIChatClient(httpClient, serverUrl);
+AGUIChatClient chatClient = new AGUIChatClient(new AGUIChatClientOptions(httpClient, serverUrl));
 AIAgent agent = chatClient.AsAIAgent(
-    instructions: "You are a helpful assistant that can also change the color of the text in the console. Use the 'change_color' tool to change the color when needed to enhance user experience.",
+    instructions: """
+                You are a helpful assistant that can also change the color of the text in the console. 
+                Use the 'change_color' tool to change the color when needed to enhance user experience.
+                """,
     tools: [AIFunctionFactory.Create(ChangeColor, name: "change_color")]
 );
 
