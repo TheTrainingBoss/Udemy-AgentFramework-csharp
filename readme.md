@@ -6,7 +6,7 @@ Source code and practical examples for the Udemy course **Mastering Microsoft Ag
 
 ## Dependency
 
-The code is currently using Microsoft Agent Framework NuGet package version 1.27.0
+The code is currently using Microsoft Agent Framework NuGet package version 1.28.0
 
 ## Overview
 
